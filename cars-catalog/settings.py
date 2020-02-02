@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'carshop.urls'
+ROOT_URLCONF = 'cars-catalog.urls'
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'carshop.wsgi.application'
+WSGI_APPLICATION = 'cars-catalog.wsgi.application'
 
 
 # Database
