@@ -11,3 +11,7 @@ class Car(models.Model):
 
     transmission = models.IntegerField(choices=TRANSMISSION_CHOICES)
     color = models.CharField(max_length=25)
+
+    def __str__(self):
+        return self.manufacturer + ' ' + self.model
+    
