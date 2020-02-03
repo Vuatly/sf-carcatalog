@@ -1,4 +1,3 @@
-from django.contrib.postgres.search import SearchVector
 from django.db.models import Q
 from django.views.generic import ListView
 from .models import Car
@@ -20,11 +19,11 @@ class CarsList(ListView):
             search_query = self.request.GET.get('search', '')
             qs = Car.objects.all()
             if search_query:
-                qs = Car.objects.annotate(
-                    search=SearchVector('model', 'manufacturer', 'color', 'release_year', 'transmission'),
-                ).filter(search=search_query)
-                if not qs:
-                    logger.warning("Cars list is empty")
+                qs = Car.objects.filter(Q(manufacturer__icontains=search_query)
+                                        | Q(model__icontains=search_query)
+                                        | Q(color__icontains=search_query)
+                                        | Q(release_year__icontains=search_query)
+                                        | Q(transmission__icontains=search_query))
             return qs
         except Exception as exc:
             logger.error(str(exc))
