@@ -12,6 +12,7 @@ class Car(models.Model):
 
     transmission = models.IntegerField(choices=TRANSMISSION_CHOICES)
     color = models.CharField(max_length=25)
+    photo = models.ImageField(upload_to='media/%Y/%m/%d', blank=True)
 
     def __str__(self):
         return self.manufacturer + ' ' + self.model + ' ' + str(self.release_year)

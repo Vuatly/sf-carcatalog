@@ -1,16 +1,24 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
+{% block css %}
+<link rel="stylesheet" href="{% static "css/main.css" %}">
+{% endblock css %}
     <div class="container">
         <div class="row">
             {% if cars %}
             {% for car in cars %}
-                <div class="col-md">
-                    <p>{{ car.manufacturer }} {{ car.model }} {{ car.release_year }}</p>
+                <div class="col-sm">
+                    <div class="car">
+                        <p>{{ car.manufacturer }} {{ car.model }} {{ car.release_year }}</p>
+                        {% if car.photo %}
+                        <img src="{{ car.photo.url }}" alt="car">
+                        {% endif %}
+                    </div>
                 </div>
             {% endfor %}
             {% else %}
-                <h2>Нет машин по вашему запросу.</h2>
+                <h2>Page not found.</h2>
             {% endif %}
         </div>
     </div>

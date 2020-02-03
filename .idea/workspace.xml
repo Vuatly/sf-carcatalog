@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1dff38-ae20-4544-97d1-fc83d282ef13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/staticfiles/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime.txt" beforeDir="false" afterPath="$PROJECT_DIR$/runtime.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/cars-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/cars-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars-catalog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars-catalog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars-catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars-catalog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -42,10 +48,53 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580650441218</updated>
+      <workItem from="1580744149202" duration="2365000" />
     </task>
+    <task id="LOCAL-00001" summary="Small change">
+      <created>1580731022935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731022935</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix req">
+      <created>1580731227131</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731227131</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix req">
+      <created>1580731447120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731447120</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Successful test SearchVector. Returns to Q">
+      <created>1580731830729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1580731830729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Small change" />
+    <MESSAGE value="Fix req" />
+    <MESSAGE value="Successful test SearchVector. Returns to Q" />
+    <option name="LAST_COMMIT_MESSAGE" value="Successful test SearchVector. Returns to Q" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="564" y="27" width="781" height="987" key="CommitChangelistDialog2" timestamp="1580731830667">
+      <screen x="0" y="27" width="1920" height="987" />
+    </state>
+    <state x="564" y="27" width="781" height="987" key="CommitChangelistDialog2/0.27.1920.987@0.27.1920.987" timestamp="1580731830667" />
     <state x="449" y="155" width="1022" height="737" key="SettingsEditor" timestamp="1580719055443">
       <screen x="0" y="27" width="1920" height="987" />
     </state>
