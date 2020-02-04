@@ -1,5 +1,9 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .car img {
-    width: 300px;
     border-radius: 10px;
     box-shadow: 0 0 3px 2px;
 }
+

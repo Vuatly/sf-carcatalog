@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b1dff38-ae20-4544-97d1-fc83d282ef13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/staticfiles/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/staticfiles/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/staticfiles/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/cars-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/cars-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars-catalog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars-catalog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars-catalog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/cars-catalog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580650441218</updated>
-      <workItem from="1580744149202" duration="2365000" />
+      <workItem from="1580744149202" duration="2519000" />
+      <workItem from="1580813290483" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="Small change">
       <created>1580731022935</created>

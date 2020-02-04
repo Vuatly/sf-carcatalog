@@ -10,9 +10,14 @@
             {% for car in cars %}
                 <div class="col-sm">
                     <div class="car">
-                        <p>{{ car.manufacturer }} {{ car.model }} {{ car.release_year }}</p>
+                        <p>{{ car.manufacturer }}
+                            {{ car.model }}
+                            {{car.get_transmission_display }}
+                            {{ car.color }}
+                            {{ car.release_year }}
+                        </p>
                         {% if car.photo %}
-                        <img src="{{ car.photo.url }}" alt="car">
+                        <img src="{{ car.photo.url }}" class="figure-img img-fluid rounded" alt="car">
                         {% endif %}
                     </div>
                 </div>
